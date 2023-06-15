@@ -15,12 +15,10 @@ Flutter学習
 
 ## flutter_test_app_3
 Providerパターンの学習
-[参考にしたサイト](https://www.youtube.com/watch?v=iN2IjSQR7Fs&list=PLuLRJz1UnJzFrDuXT5FjsSUPmqD79kUpB&index=1)
-
-## flutter_test_app_4
 Firebaseの学習
-[参考にしたサイト](https://www.youtube.com/watch?v=iN2IjSQR7Fs&list=PLuLRJz1UnJzFrDuXT5FjsSUPmqD79kUpB&pp=iAQB)
-
+コミットごとに内容が異なる
+[参考にしたサイト①](https://www.youtube.com/watch?v=iN2IjSQR7Fs&list=PLuLRJz1UnJzFrDuXT5FjsSUPmqD79kUpB&index=1)
+[参考にしたサイト②](https://www.youtube.com/watch?v=iN2IjSQR7Fs&list=PLuLRJz1UnJzFrDuXT5FjsSUPmqD79kUpB&pp=iAQB)
 ## todo_app
 アプリケーションを作ってみる
 [参考にしたサイト](https://www.youtube.com/watch?v=YLrQFNjerqs&list=PLuLRJz1UnJzEQDOEflFsTiWFFgoLQqlK0&pp=iAQB)
