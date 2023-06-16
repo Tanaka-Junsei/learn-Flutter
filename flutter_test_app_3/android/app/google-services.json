@@ -31,10 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "258905811279-mk4d5he6gfn5v33mlm93gn5rtq4e43va.apps.googleusercontent.com",
+              "client_id": "258905811279-mhpjslrqqvh85ng3c4ngqbui960v144m.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.flutterTestApp3.RunnerTests"
+                "bundle_id": "com.example.flutterTestApp3"
               }
             }
           ]

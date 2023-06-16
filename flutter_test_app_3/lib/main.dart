@@ -1,8 +1,15 @@
 import 'package:flutter_test_app_3/main_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_test_app_3/book_list_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); // Firebaseアプリを初期化する
+
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -20,7 +27,7 @@ class MyApp extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    model.sampleTexts[model.index],
+                    model.sampleText,
                     style: TextStyle(
                       fontSize: 30,
                     ),
@@ -29,7 +36,10 @@ class MyApp extends StatelessWidget {
                     child: Text('ボタン'),
                     onPressed: () {
                       // ここでなにか
-                      model.changeText();
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => BookList()),
+                      );
                     },
                   ),
                 ],

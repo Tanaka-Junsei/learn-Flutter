@@ -1,15 +1,10 @@
 import 'package:flutter/material.dart';
 
 class MainModel extends ChangeNotifier {
-  List sampleTexts = ["junsei", "tanaka"];
-  int index = 0;
+  String sampleText = 'junsei';
 
   void changeText() {
-    if (index == 0) {
-      index = 1;
-    } else {
-      index = 0;
-    };
+    sampleText = 'Hello World';
     notifyListeners();
   }
 }
